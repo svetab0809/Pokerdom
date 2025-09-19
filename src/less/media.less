@@ -648,11 +648,6 @@
     }
   }
 
-  footer {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
   .report {
 
     &__txt {
@@ -666,27 +661,26 @@
 
   .links {
     font-size: 16px;
-    padding-left: 35px;
-    padding-right: 35px;
 
     &__img {
       width: 80px;
       height: 40px;
     }
+
+    &__title {
+      margin-bottom: 15px;
+    }
+
+    &__name {
+      margin-bottom: 15px;
+    }
   }
 
-  .contacts {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-
-  .contact {
+ .contact {
     font-size: 16px;
 
     &__title {
-      margin-bottom: 17px;
+      margin-bottom: 15px;
     }
 
 
@@ -694,6 +688,12 @@
       width: 35px;
       margin-left: 35px;
 
+    }
+  }
+
+  .payment {
+    &__wrap {
+      margin-bottom: 20px;
     }
   }
 
@@ -833,7 +833,6 @@
     margin-top: 40px;
   }
 
-
   .comment {
 
     &__info {
@@ -884,7 +883,7 @@
     }
   }
 
-  .report {
+ .report {
 
     &__txt {
       font-size: 9px;
@@ -897,25 +896,15 @@
 
   .links {
     font-size: 13px;
-    padding-right: 35px;
-    padding-left: 35px;
 
     &__img {
       width: 70px;
       height: 30px;
     }
 
-    &__title {
-      padding: 7px;
-    }
-
-    &__name {
-      padding: 7px;
-    }
   }
 
-
-  .contact {
+ .contact {
     font-size: 13px;
 
 
@@ -996,11 +985,6 @@
 
 .named {
     font-size: 13px;
-  }
-
-  .links {
-    padding-top: 9px;
-    padding-bottom: 9px;
   }
 
 }
@@ -1145,6 +1129,8 @@
   footer {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
   }
 
   .report {
@@ -1163,26 +1149,10 @@
     margin-top: 15px;
     margin-bottom: 15px;
 
-
-    &__title {
-      padding: 6px;
-    }
-
-    &__name {
-      padding: 6px;
-    }
-  }
-
-  .contacts {
-    padding-top: 8px;
   }
 
   .contact {
     font-size: 12px;
-
-    &__title {
-      margin-bottom: 14px;
-    }
 
 
     &__logo {
@@ -1210,11 +1180,6 @@
     &__top {
       margin-left: 5px;
     }
-  }
-
-  footer {
-    padding-left: 30px;
-    padding-right: 30px;
   }
 
 }
@@ -1412,23 +1377,25 @@
 
  .links {
     font-size: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 8px;
-    padding-bottom: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
 
     &__img {
       width: 60px;
     }
+
+   &__title {
+     margin-bottom: 12px;
+   }
+
+   &__name {
+     margin-bottom: 12px;
+   }
   }
 
   .contacts {
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .contact {
@@ -1436,7 +1403,10 @@
 
     &__logo {
       margin-left: 18px;
+    }
 
+    &__title {
+      margin-bottom: 12px;
     }
   }
 
@@ -1482,12 +1452,8 @@
 
   .links {
 
-    &__title {
-      padding: 5px;
-    }
-
     &__name {
-      padding: 5px;
+      margin-bottom: 10px;
     }
 
     &__img {
@@ -1497,7 +1463,6 @@
 
   .contact {
     font-size: 10px;
-    padding: 5px;
  }
 
 }
@@ -1547,6 +1512,12 @@
     font-size: 15px;
   }
 
+.report {
+  &__txt {
+    font-size: 7px;
+  }
+}
+
 }
 
 //820px
@@ -1570,6 +1541,19 @@
  .comments {
     margin-top: 30px;
   }
+
+ .links {
+   &__img {
+     width: 50px;
+   }
+ }
+
+ .report {
+
+   &__txt {
+     margin-left: 30px;
+   }
+ }
 
 }
 
@@ -1614,6 +1598,22 @@
   btn {
     padding-right: 15px;
     padding-left: 15px;
+  }
+
+  .links {
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__name {
+      margin-bottom: 8px;
+    }
+  }
+
+  .contact {
+    &__title {
+      margin-bottom: 10px;
+    }
   }
 }
 
@@ -1716,9 +1716,6 @@
  .contact {
     font-size: 8px;
 
-    &__title {
-      margin-bottom: 12px;
-    }
 
  &__logo {
       width: 20px;
@@ -1745,6 +1742,11 @@
       font-size: 9px;
     }
 
+  }
+
+  footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
 }
@@ -1995,25 +1997,25 @@
   .links {
     display: block;
     font-size: 9px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 0px;
+
 
     &__title {
-      font-size: 11px;
-
+      font-size: 10px;
+      margin-bottom: 8px;
     }
 
     &__img {
       width: 40px;
       height: 20px;
     }
+
+    &__name {
+      margin-bottom: 7px;
+    }
   }
 
   .about-categories {
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
   }
 
@@ -2029,10 +2031,27 @@
     min-width: 170px;
 
     &__title {
-      margin-bottom: 10px;
-
+      margin-bottom: 8px;
     }
 
+    &__email {
+      margin-bottom: 8px;
+    }
+
+    &__partner {
+      margin-bottom: 8px;
+    }
+
+
+  }
+
+  .payment {
+
+
+&__wrap {
+  margin-bottom: 15px;
+
+}
   }
 
 }

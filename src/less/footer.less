@@ -8,6 +8,7 @@
 
   display: flex;
   justify-content: center;
+  align-items: center;
 
   &__txt {
     color: rgba(64, 102, 101, 1);
@@ -25,96 +26,63 @@
   }
 }
 
-.links {
-  font-size: 22px;
+.footer-info {
+  display: flex;
+  justify-content: space-between;
   margin-top: 20px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: space-between;
-
-
-  &__title {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  &__img {
- width: 110px;
-    height: 55px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-
-  }
-
-  &__name {
-    text-decoration: none;
-    color: rgba(64, 102, 101, 1);
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-  }
-}
-
-.about-categories {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-
-  &__about {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__categories {
-    display: flex;
-    flex-direction: column;
-  }
-
-}
-
-
-.contacts {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 20px;
-  font-size: 22px;
+
 }
 
-.contact {
+.footer-link {
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
+
 
   &__title {
-    margin-bottom: 20px;
-
+    font-size: 22px;
   }
 
-  &__email {
+  &__links {
+    color: #406665;
     text-decoration: none;
-    color: rgba(64, 102, 101, 1);
-
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 
-  &__logo {
+  &__contact {
     width: 60px;
     margin-left: 40px;
   }
-
-  &__partner {
-    text-decoration: none;
-    color: rgba(64, 102, 101, 1);
-
-    &_violet {
-      color: blueviolet;
-    }
-  }
-
 }
 
 .payment {
-  display: block;
-  margin: 0 auto;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+  }
+
+
+  &__icon {
+    width: 120px;
+
+  }
 }
 
+.footer-support {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-wrap {
+  display: flex;
+
+}
+
+.txt-violet {
+  color: blueviolet;
+}
